@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="8dp"/> <!-- Ajusta el radio según tu preferencia -->
+    <stroke android:color="#000000" android:width="2dp"/> <!-- Ajusta el color y el ancho del borde según tu preferencia -->
+    <solid android:color="#FFBB86FC"/> <!-- Color de fondo morado claro opaco -->
+</shape>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/etq_datos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="titulo"
+        android:layout_marginBottom="15dp"
+        android:padding="30dp"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="479dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"> <!-- Utilizamos layout_weight para que ocupe el espacio restante -->
+
+        <LinearLayout
+            android:id="@+id/contenedor_cuestionarios"
+            android:layout_width="match_parent"
+            android:layout_height="479dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" titulo IMPRIMIR"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:background="@drawable/border_text"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|right"> <!-- Ubicamos los botones en la parte inferior derecha -->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="cerrarSesion"
+            android:backgroundTint="#FF3346"
+            android:textSize="25dp"
+            app:icon="@drawable/logout"
+            app:iconSize="40dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="IniciarQuestionario"
+            android:textSize="25dp"
+            android:backgroundTint="#68FF33"
+            app:icon="@drawable/image_gallery"
+            app:iconSize="40dp"
+            />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

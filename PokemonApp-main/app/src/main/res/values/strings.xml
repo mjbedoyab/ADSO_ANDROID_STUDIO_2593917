@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pokemon App</string>
+    <string name="pokemon_name" translatable="false">Pikachu</string>
+    <string name="pokemon_description" translatable="false">This electric type Pokemon is famous for its lightning bolt-shaped tail.</string>
+    <string name="pokemon_type" translatable="false">Type: Electric</string>
+    <string name="pokemon_weight" translatable="false">Weight: 6.0 kg</string>
+    <string name="pokemon_height" translatable="false">Height: 0.4 m</string>
+    <string name="pokemon_image" translatable="false">Picture of Pikachu</string>
+    <string name="pokemon_weakness" translatable="false">Height: 0.4 m</string>
+    <string name="pokemon_evolution" translatable="false">Picture of Pikachu</string>
+
+</resources>
